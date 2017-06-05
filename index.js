@@ -6,7 +6,6 @@ if (!process.env.token) {
 }
 
 let Botkit = require('botkit');
-let os = require('os');
 let pg = require('pg');
 
 let controller = Botkit.slackbot({
